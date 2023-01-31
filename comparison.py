@@ -52,6 +52,10 @@ my_name(fname='love to learn every day',lname='GOD lead me to achive better than
 
 
 #more examples
+def func (*kids):
+            print("The youngest child is " + kids[2])
+
+func=("asha","joe","loe")
 
 
 
