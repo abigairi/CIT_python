@@ -41,18 +41,19 @@ print(f" {num1} and {num2} results {ans}.")
 
 
 
-# some more functions
-def is_prime(n):
-	if n in [2, 3]:
-		return True
-	if (n == 1) or (n % 2 == 0):
-		return False
-	r = 3
-	while r * r <= n:
-		if n % r == 0:
-			return False
-		r += 2
-	return True
-print(is_prime(78), is_prime(79))
+
+#mo examples of functions
+def my_name(fname,lname):
+            print(fname, lname)
+            
+my_name(fname='Abigail',lname='Mnzava')
+my_name(fname='love to learn every day',lname='GOD lead me to achive better than yesterday.')
+            
+
+
+#more examples
+
+
+
 
 
